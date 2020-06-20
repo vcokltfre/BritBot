@@ -9,6 +9,7 @@ client = commands.Bot(command_prefix="b!")
 client.remove_command("help")
 
 extensions = [
+    "cogs.insult"
 ]
 
 for exten in extensions:
