@@ -1,0 +1,12 @@
+[
+    {
+        "name":"insult",
+        "subcommands":[
+            {
+                "name":"fucc",
+                "description":"Says \"fuck you\" to someone from the command author.",
+                "usage":"fucc *name"
+            }
+        ]
+    }
+]
