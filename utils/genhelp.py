@@ -13,5 +13,5 @@ def genHelp(groupName):
     subcommands = item["subcommands"]
     embed = discord.Embed(title="Command help", description=f"Commands for group {groupName}")
     for item in subcommands:
-        embed.add_field(name=item["name"], value=f"Desc: {item['description']}\nUsage: {item['usage']}")
+        embed.add_field(name=item["name"], value=f"Desc: {item['description']}\nUsage: b!{groupName} {item['usage']}")
     return embed
